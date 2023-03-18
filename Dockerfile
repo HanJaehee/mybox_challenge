@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17 AS builder
+FROM eclipse-temurin:17-jdk AS builder
 
 COPY . .
 RUN chmod +x gradlew
